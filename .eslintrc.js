@@ -11,6 +11,7 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
+    "parser": "vue-eslint-parser",
     "parserOptions": {
         "ecmaVersion": 2017,
         "sourceType": "module"
