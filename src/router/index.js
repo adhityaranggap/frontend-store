@@ -31,7 +31,7 @@ const routes = [{
         path: '/customer/order',
         name: 'order',
         component: () =>
-            import ( /* webpackChunkName: "order" */ '@/views/order/Index.vue'),
+            import ( /* webpackChunkName: "order" */ '../views/order/Index.vue'),
         meta: {
             //chek is loggedIn
             requiresAuth: true
@@ -41,7 +41,7 @@ const routes = [{
         path: '/customer/order/:snap_token',
         name: 'detail_order',
         component: () =>
-            import ( /* webpackChunkName: "detail_order" */ '@/views/order/Show.vue'),
+            import ( /* webpackChunkName: "detail_order" */ '../views/order/Show.vue'),
         meta: {
             //chek is loggedIn
             requiresAuth: true
@@ -63,19 +63,19 @@ const routes = [{
         path: '/categories',
         name: 'categories',
         component: () =>
-            import ( /* webpackChunkName: "category" */ '@/views/category/Index.vue')
+            import ( /* webpackChunkName: "category" */ '../views/category/Index.vue')
     },
     {
         path: '/category/:slug',
         name: 'detail_category',
         component: () =>
-            import ( /* webpackChunkName: "detail_category" */ '@/views/category/Show.vue')
+            import ( /* webpackChunkName: "detail_category" */ '../views/category/Show.vue')
     },
     {
         path: '/cart',
         name: 'cart',
         component: () =>
-            import ( /* webpackChunkName: "cart" */ '@/views/cart/Index.vue'),
+            import ( /* webpackChunkName: "cart" */ '../views/cart/Index.vue'),
         meta: {
             //chek is loggedIn
             requiresAuth: true
