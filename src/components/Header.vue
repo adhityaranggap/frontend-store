@@ -9,7 +9,7 @@
               class="text-decoration-none"
               data-abc="true"
             >
-              <span class="logo"><i class="fa fa-apple-alt"></i> INTERNET STORE </span>
+              <span class="logo"><i class="fa fa-apple-alt"></i> Mochi Kita </span>
             </router-link>
           </div>
           <div class="col-md-5 d-none d-md-block">
