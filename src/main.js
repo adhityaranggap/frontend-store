@@ -30,7 +30,10 @@ app.mixin({
 
         //calculate discount
         calculateDiscount(product) {
-            return product.price - (product.price * (product.discount) / 100)
+            let reserve = product.price - (product.price * (product.discount) / 100)
+            let val = (reserve / 1).toFixed(0).replace(".", ",");
+            return val.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            // return product.price - (product.price * (product.discount) / 100)
         }
 
     }
