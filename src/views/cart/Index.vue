@@ -79,7 +79,9 @@
                   </td>
                   <td class="set-td border-0 text-right">&nbsp; : Rp.</td>
                   <td class="set-td border-0 text-right">
-                    <p class="m-0" id="ongkir-cart">0</p>
+                    <p class="m-0" id="ongkir-cart">
+                      {{ moneyFormat(state.courier_cost) }}
+                    </p>
                   </td>
                 </tr>
                 <tr>
