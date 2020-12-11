@@ -11,7 +11,7 @@
               <i class="fas fa-tachometer-alt"></i> DASHBOARD
             </h5>
             <hr />
-            Selamat Datang <strong>{{ user.name }}</strong>!
+            Selamat Datang <strong>{{ user.name }}</strong>
           </div>
         </div>
       </div>
